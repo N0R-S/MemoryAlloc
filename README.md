@@ -1,6 +1,6 @@
 ## Usage: .\allocator <memory_size>
 
-## allocator> RQ <ProcessID> <Process_SIZE> <Algorithm_Type>
+## allocator> RQ (ProcessID) <Process_SIZE> <Algorithm_Type>
 ### - Request Empty Block to a Process
 <Algorithm_Type> : 
   W - Worst Fit ,
@@ -8,7 +8,7 @@
   B - Best Fit
 
 
-## allocator> RL <Pid>
+## allocator> RL (Pid)
 ### - Release Allocated Process
 
 ## allocator> C 
